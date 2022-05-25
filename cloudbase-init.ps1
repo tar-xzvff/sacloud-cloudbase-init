@@ -1,0 +1,3 @@
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/tar-xzvff/sacloud-cloudbase-init/main/sakuracloudservice.py" -OutFile "C:\Program Files\Cloudbase Solutions\Cloudbase-Init\Python\Lib\site-packages\cloudbaseinit\metadata\services\sakuracloudservice.py"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/tar-xzvff/sacloud-cloudbase-init/main/cloudbase-init.conf" -OutFile "C:\Program Files\Cloudbase Solutions\Cloudbase-Init\conf\cloudbase-init.conf"
