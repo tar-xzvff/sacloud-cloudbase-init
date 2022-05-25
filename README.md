@@ -1,0 +1,1 @@
+# sacloud-cloudbase-init
